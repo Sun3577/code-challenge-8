@@ -1,0 +1,57 @@
+.friends-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.friends-box__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--dark-gray);
+  font-size: 13pt;
+}
+
+.friends-box__avatars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.friends-box__avatars__avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 70px;
+  position: relative;
+  padding-right: 30px;
+}
+
+.friends-box__avatars__avatar span {
+  margin-top: 20px;
+}
+
+.friends-box__avatars__avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.friends-box__avatars__avatar__dot {
+  left: 0;
+}
+
+.user-component-list {
+  height: auto;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}

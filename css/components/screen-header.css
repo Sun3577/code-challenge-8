@@ -1,0 +1,22 @@
+.screen-header {
+  position: fixed;
+  top: 100px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 34px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.screen-header__column {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.screen-header__column:last-child {
+  font-size: 28px;
+}

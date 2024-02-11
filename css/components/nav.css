@@ -1,0 +1,31 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: var(--light-gray);
+  border-top: 1px solid var(--gray);
+  height: 120px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  height: 60%;
+  box-sizing: border-box;
+  font-size: 11pt;
+  color: var(--gray);
+}
+
+.nav__list--black {
+  color: black;
+}
+
+.nav__list i {
+  font-size: 30px;
+}

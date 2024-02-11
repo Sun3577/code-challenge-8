@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "css/screens/login-screen.css";
+@import "css/components/status-bar.css";
+@import "css/components/no-moblie.css";
+@import "css/components/screen-header.css";
+@import "css/components/update.css";
+@import "css/variables.css";
+@import "css/components/user-component.css";
+@import "css/components/updated-profile.css";
+@import "css/components/pung.css";
+@import "css/components/nav.css";
+
+body {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.main-screen {
+  width: 90vw;
+  height: 100vh;
+  margin-top: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.bottom-line {
+  border-bottom: 3px solid var(--light-gray);
+}
+
+.red-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+}

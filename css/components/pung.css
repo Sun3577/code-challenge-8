@@ -1,0 +1,30 @@
+.pung {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 15px;
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.pung__make,
+.pung img {
+  background-color: var(--light-gray);
+  width: 100px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.pung span {
+  margin-top: 20px;
+}
+
+.pung__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: var(--dark-gray);
+  bottom: 20px;
+  position: absolute;
+}

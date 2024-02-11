@@ -1,0 +1,60 @@
+.status-bar {
+  position: fixed;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  height: 5vh;
+  box-sizing: border-box;
+  font-size: 17pt;
+}
+
+.status-bar__column {
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.status-bar__column:first-child {
+  font-weight: 600;
+}
+
+.status-bar__column > div {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.status-bar__column > div:nth-child(2) {
+  margin-right: 10px;
+}
+
+.status-bar__column > div:last-child {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-top: 4px;
+}
+
+.status-bar__column > div:last-child div:first-child {
+  font-size: 160%;
+  color: var(--green);
+}
+
+.status-bar__column > div:last-child > div:last-child {
+  position: absolute;
+  right: 22%;
+  top: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.status-bar__column > div:last-child > div:last-child div {
+  font-size: 50%;
+  color: white;
+}

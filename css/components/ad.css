@@ -1,0 +1,11 @@
+.ad {
+  position: fixed;
+  top: 170px;
+  width: 90vw;
+  background-color: var(--light-gray);
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -14,6 +14,7 @@
   width: 100px;
   height: 140px;
   border-radius: 15px;
+  position: relative;
 }
 
 .pung span {
@@ -27,4 +28,13 @@
   background-color: var(--dark-gray);
   bottom: 20px;
   position: absolute;
+}
+
+.pung__make span {
+  font-size: 46pt;
+  font-weight: 100;
+  position: absolute;
+  right: 32%;
+  top: 20%;
+  color: var(--dark-gray);
 }

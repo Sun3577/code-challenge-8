@@ -57,13 +57,23 @@
   font-size: 12pt;
 }
 
+.user-component__subtitle--m {
+  font-size: 15pt;
+  font-weight: 300;
+}
+
 .user-component__column:last-child {
   width: 18%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .user-component__column__music {
   border: 2px solid var(--green);
   width: 100%;
+  height: 40px;
   padding: 12px;
   border-radius: 22.5px;
   box-sizing: border-box;
@@ -84,4 +94,36 @@
 
 .user-component__column__music i {
   color: var(--green);
+}
+
+.user-component__column__chats {
+  line-height: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.user-component__column__chats > div:first-child {
+  color: var(--gray);
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+.user-component__column__chats > div:nth-child(2) {
+  width: 28px;
+  height: 28px;
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 13pt;
+}
+
+.user-component__column__chats > div:last-child span {
+  padding-top: 3px;
 }

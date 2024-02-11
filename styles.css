@@ -9,6 +9,8 @@
 @import "css/components/updated-profile.css";
 @import "css/components/pung.css";
 @import "css/components/nav.css";
+@import "css/components/ad.css";
+@import "css/screens/main-chats-screen.css";
 
 body {
   padding: 20px;
@@ -31,7 +33,7 @@ body {
 }
 
 .bottom-line {
-  border-bottom: 3px solid var(--light-gray);
+  border-bottom: 1.5px solid var(--light-gray);
 }
 
 .red-dot {
@@ -40,4 +42,8 @@ body {
   border-radius: 50%;
   background: red;
   position: absolute;
+}
+
+.main-chats-screen {
+  margin-top: 290px;
 }

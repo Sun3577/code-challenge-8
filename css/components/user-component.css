@@ -141,3 +141,36 @@
   padding: 15px 0px;
   box-sizing: border-box;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.user-component__column__music:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

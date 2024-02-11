@@ -10,7 +10,8 @@
 @import "css/components/pung.css";
 @import "css/components/nav.css";
 @import "css/components/ad.css";
-@import "css/screens/main-chats-screen.css";
+@import "css/screens/open-chats.screen.css";
+@import "css/screens/shopping.css";
 
 body {
   padding: 20px;
@@ -23,9 +24,9 @@ body {
 }
 
 .main-screen {
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
-  margin-top: 215px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,6 +45,20 @@ body {
   position: absolute;
 }
 
-.main-chats-screen {
-  margin-top: 290px;
+.main-screen-open-chats {
+  margin-top: 250px;
+}
+
+.main-screen-friends {
+  margin-top: 215px;
+}
+
+.main-open-chats-screen {
+  border-bottom: 15px solid var(--light-gray);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
 }

@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 0px;
+  box-sizing: border-box;
 }
 
 .user-component__column:first-child {
@@ -126,4 +127,17 @@
 
 .user-component__column__chats > div:last-child span {
   padding-top: 3px;
+}
+
+.user-component-list {
+  height: auto;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0px;
+  box-sizing: border-box;
 }

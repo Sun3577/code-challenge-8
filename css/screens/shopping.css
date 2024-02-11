@@ -1,0 +1,110 @@
+.shopping-header {
+  position: fixed;
+  width: 90vw;
+  top: 180px;
+  font-size: 17pt;
+}
+
+.shopping-header__input {
+  position: relative;
+}
+
+.shopping-header__input input {
+  width: 100%;
+  padding: 20px 60px;
+  font-size: 17pt;
+  box-sizing: border-box;
+  background-color: var(--light-gray);
+  border: none;
+  border-radius: 10px;
+}
+
+.shopping-header__input i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 100%;
+}
+
+.shopping-header__list {
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  overflow-x: scroll;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.shopping-header__list li {
+  margin: 0 20px;
+}
+
+.shopping-header__list li span {
+  display: flex;
+  padding: 20px 5px;
+}
+
+.shopping-header__list li:nth-child(2) span {
+  border-bottom: 5px solid var(--dark-gray);
+}
+
+.main__screen__shopping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 340px;
+}
+
+.main__screen__shopping__ads {
+  position: fixed;
+  top: 500px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.main__screen__shopping__ads__ad {
+  width: 70px;
+  height: 70px;
+  background-color: var(--light-gray);
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.main__screen__shopping__options {
+  position: fixed;
+  top: 1000px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.main__screen__shopping__options__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.main__screen__shopping__options__option div:first-child {
+  width: 70px;
+  height: 70px;
+  background-color: var(--light-gray);
+  border-radius: 25px;
+}
+
+.main__screen__shopping__options__option div:last-child {
+  margin-top: 10px;
+}

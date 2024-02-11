@@ -11,6 +11,10 @@
   font-size: 17px;
 }
 
+.update__open-chats {
+  top: 190px;
+}
+
 .update > div {
   margin: 0 5px;
   display: flex;

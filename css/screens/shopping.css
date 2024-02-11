@@ -62,18 +62,20 @@
 
 .main__screen__shopping__ads {
   position: fixed;
-  top: 500px;
+  top: 230px;
   width: 100%;
   height: 500px;
   display: flex;
   align-items: center;
   overflow-x: scroll;
   white-space: nowrap;
+  margin-left: 15px;
 }
 
 .main__screen__shopping__ads__ad {
-  width: 70px;
-  height: 70px;
+  min-width: fit-content;
+  width: 200px;
+  height: 250px;
   background-color: var(--light-gray);
   border-radius: 20px;
   margin-right: 15px;
@@ -81,13 +83,14 @@
 
 .main__screen__shopping__options {
   position: fixed;
-  top: 1000px;
+  top: 650px;
   width: 100vw;
   display: flex;
   align-items: center;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  margin-left: 15px;
 }
 
 .main__screen__shopping__options__option {

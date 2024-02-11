@@ -141,3 +141,17 @@
   padding: 15px 0px;
   box-sizing: border-box;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
